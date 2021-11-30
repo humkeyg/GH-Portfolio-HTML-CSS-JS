@@ -1,6 +1,10 @@
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
+function show() {
+ 
+  /* Access image by id and change
+  the display property to block*/
+  document.getElementById('coverLetterImg')
+          .style.display = "block";
 
-myModal.addEventListener('shown.bs.modal', function () {
-  myInput.focus()
-})
+  document.getElementById('coverLetterBtn')
+          .style.display = "none";
+}
