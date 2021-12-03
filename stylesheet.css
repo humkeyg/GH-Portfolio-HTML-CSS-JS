@@ -10,7 +10,20 @@ body {
     font-size: 20px;
 }
 
-#coverLetterImg {
-    display: none;
+.modal {
+    /* background: green; */
+    position: absolute;
+    /* float: left; */
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
 }
 
+.img-responsive {
+    align-content: center;
+    padding: 5%;
+    width: 70vmin; 
+    height: 70vmin;
+    max-width: 500px; 
+    max-height: 500px;
+}
