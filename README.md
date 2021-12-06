@@ -1,2 +1,3 @@
-# week2homework
-Week 2 Homework
+Updated Portfolio
+
+Here is the completely redone portfolio. I have utilized Bootstrap and Javascript this time around.
