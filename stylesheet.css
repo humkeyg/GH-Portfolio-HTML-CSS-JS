@@ -10,6 +10,11 @@ body {
     font-size: 20px;
 }
 
+#about-me {
+    align-items: center;
+
+}
+
 .modal {
     /* background: green; */
     position: absolute;
