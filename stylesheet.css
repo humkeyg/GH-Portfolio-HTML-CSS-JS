@@ -1,7 +1,9 @@
+/* (.) = class selector, (#) = id selector */
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 body {
@@ -10,9 +12,20 @@ body {
     font-size: 20px;
 }
 
-#about-me {
-    align-items: center;
+.header {
+    text-align: center;
+    font-size: xx-large;
+    margin: 10%;
+    background-color: whitesmoke;
+}
 
+.sub-header {
+    font-size: x-large;
+}
+
+.btn {
+    text-align: center;
+    align-content: center;
 }
 
 .modal {
@@ -31,4 +44,50 @@ body {
     height: 70vmin;
     max-width: 500px; 
     max-height: 500px;
+}
+
+/* #about-me {
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 10%;
+    padding: 10%;
+} */
+
+#about-me-text{
+    align-content: center;
+    background-color: whitesmoke;
+    margin: 10%;
+    padding: 10%;
+}
+
+/* .work {  */
+    /* align-items: center; */
+    /* background-color: whitesmoke; */
+    /* margin: 10%;
+    padding: 10%; */
+/* } */
+
+#cover-resume-background {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+.code-refactor {
+    vertical-align: center;
+    background-color: whitesmoke;
+    margin: 10%;
+}
+
+.projects {
+    vertical-align: center;
+    background-color: whitesmoke;
+    margin: 10%;
+}
+
+.form {
+    background-color: whitesmoke;
+    margin: 10%;
+    padding: 10%;
 }
