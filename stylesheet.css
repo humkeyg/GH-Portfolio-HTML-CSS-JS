@@ -1,93 +1,177 @@
 /* (.) = class selector, (#) = id selector */
 
 * {
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
-    background: linear-gradient(to top left, #CDB3D4, #E7B7C8, #FFBE88, #E7B7C8, #CDB3D4);
-    font-family: 'Aleo', sans-serif;
-    font-size: 20px;
-}
-
-.header {
-    text-align: center;
-    font-size: xx-large;
-    margin: 10%;
-    background-color: whitesmoke;
-}
-
-.sub-header {
-    font-size: x-large;
+  background-color: #05081f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .btn {
-    text-align: center;
-    align-content: center;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(253, 220, 28);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all300ms ease;
+}
+
+.btn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.jumbotron {
+  background-image: url('https://wallpapercave.com/wp/wp2234611.png');
+  background-size: cover;
+}
+
+.display-4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15vh;
+  color: white;
+  text-align: center;
+}
+
+.lead {
+  font-family: 'Raleway', sans-serif;
+  font-size: 5vh;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  box-shadow: 0px 0px 40px 10px #366;
+}
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  margin: 10%;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 40px 10px #366;
+}
+
+.sub-header {
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 10%;
+}
+
+.btn {
+  text-align: center;
+  align-content: center;
 }
 
 .modal {
-    /* background: green; */
-    position: absolute;
-    /* float: left; */
-    /* left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); */
+  position: absolute;
 }
 
 .img-responsive {
-    align-content: center;
-    padding: 5%;
-    width: 70vmin; 
-    height: 70vmin;
-    max-width: 500px; 
-    max-height: 500px;
+  align-content: center;
+  padding: 5%;
+  width: 70vmin; 
+  height: 70vmin;
+  max-width: 500px; 
+  max-height: 500px;
 }
 
-/* #about-me {
-    align-items: center;
-    background-color: whitesmoke;
-    margin: 10%;
-    padding: 10%;
-} */
+#header-about-me {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+  margin: 10% 10% -2%;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 40px 10px #366;
+}
+
+#about-me-background {
+  margin: 10%;
+  padding: 10%;
+  background-color: #283c46#344;
+  background-image: url('https://wallpaperaccess.com/full/3310310.jpg');
+  box-shadow: 0px 0px 40px 10px #366;
+}
+
+#headshot {
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  transform: translateY(-15%);
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 10%;
+  max-width: 50%;
+  box-shadow: 0px 0px 40px 10px #366;
+}
 
 #about-me-text{
-    align-content: center;
-    background-color: whitesmoke;
-    margin: 10%;
-    padding: 10%;
+  display: block;
+  color: whitesmoke;
+  line-height: 2.5;
+  text-align: justify;
 }
 
-/* .work {  */
-    /* align-items: center; */
-    /* background-color: whitesmoke; */
-    /* margin: 10%;
-    padding: 10%; */
-/* } */
+#cover-resume-container {
+  position: relative;
+  float: right;
+}
 
-#cover-resume-background {
-    background-color: whitesmoke;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 2%;
+#work-background {
+  margin: 10%;
+  padding: 10%;
+  background-color: whitesmoke;
+  background-image: url('https://wallpaperaccess.com/full/3310310.jpg');
+  box-shadow: 0px 0px 40px 10px #366;
+}
+
+.card-img-top {
+  object-fit: contain;
 }
 
 .code-refactor {
-    vertical-align: center;
-    background-color: whitesmoke;
-    margin: 10%;
+  vertical-align: center;
 }
 
 .projects {
-    vertical-align: center;
-    background-color: whitesmoke;
-    margin: 10%;
+  vertical-align: center;
 }
 
 .form {
-    background-color: whitesmoke;
-    margin: 10%;
-    padding: 10%;
+  margin: 10%;
+  padding: 10%;
+  color: white;
+  background-image: url('https://wallpaperaccess.com/full/3310310.jpg');
+  box-shadow: 0px 0px 40px 10px #366;
+}
+
+footer {
+  border-top: 5px solid white;
+}
+
+@media print {
+  footer {page-break-before: always;}
+}
+
+.social-links {
+  text-align: center;
+  color: white;
+  position: relative;
+  float: center;
+  margin: 10%;
+}
+
+i {
+  color: white;
 }
