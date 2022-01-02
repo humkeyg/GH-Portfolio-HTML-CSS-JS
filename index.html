@@ -179,24 +179,24 @@
     <container class="contact-background" id="contact-background">
       <h5 id="header-contact" class="header">Contact</h5>
 
-      <form class="form" id="form">
+      <form action="mailto:humkeyg@gmail.com" method="post" enctype="text/plain" onsubmit="this.submit(); this.reset(); return false;" class="form" id="form">
 
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name">
+          <input type="text" class="form-control" id="name-text">
         </div>
 
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="email-text" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email-text" aria-describedby="emailHelp">
         </div>
 
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="message-text">Message</label>
+          <textarea type="text" class="form-control" id="message-text" name="message" rows="3"></textarea>
         </div>
         
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" value="Submit" class="btn">Submit</button>
 
       </form>
     
