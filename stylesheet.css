@@ -158,7 +158,10 @@ body {
 
 .card {
   position: relative;
+  display: flex;
   width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .card-img {
@@ -175,7 +178,6 @@ body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  height: 50vh;
 }
 
 .card:hover .card-img {
@@ -184,11 +186,12 @@ body {
 
 .card:hover .card-body {
   opacity: 1;
+  height: 100%;
+  overflow: scroll;
 }
 
-a .card-text {
+.card-text {
   color: black;
-  vertical-align: bottom;
 }
 
 .code-refactor {
@@ -233,7 +236,7 @@ a .card-text {
 
 .fab {
   color: white;
-  font-size: 5vh;
+  font-size: 30px;
   padding-left: 7px;
   padding-right: 7px;
 }
