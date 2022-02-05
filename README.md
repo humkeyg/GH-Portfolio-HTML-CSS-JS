@@ -16,9 +16,25 @@ Link to deployed application: https://humkeyg.github.io/GH-Portfolio-HTML-CSS-JS
 
 A static website created using HTML, CSS, and JS. The CSS is done primarily with Bootstrap.
 
+![Landing page](./Assets/landing-page.png)
+
+![About Me page](./Assets/about-page.png)
+
+![Work page](./Assets/work-page.png)
+
+![Contact page](./Assets/contact-page.png)
+
+## Features
+
+-Features include a resume button that when clicked, shows a modal containing a jpeg image of the creator's resume. Next to it is a download button that automatically downloads a pdf to the user's computer when clicked.
+
+-The navigation menu contains drop-downs that bring the user to the corresponding heading.
+
+-The contact form will automatically open the user's mail-client and fill in the corresponding information upon clicking 'submit'.
+
 ## Installation
 
-In the command line, run npm i.
+No installation necessary.
 
 ## Usage
 
