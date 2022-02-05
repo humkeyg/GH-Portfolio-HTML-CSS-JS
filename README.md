@@ -38,6 +38,8 @@ No installation necessary.
 
 ## Usage
 
+Bootstrap styling is compatible with all mobile and desktop devices.
+
 ## Tests
 
 ## Contributing
