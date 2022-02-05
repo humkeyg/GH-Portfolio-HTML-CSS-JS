@@ -14,7 +14,7 @@ Link to deployed application: https://humkeyg.github.io/GH-Portfolio-HTML-CSS-JS
 
 ## Description
 
-A static website created using HTML, CSS, and JS. The CSS is done primarily with Bootstrap.
+A static website made to showcase the developer's web developer skills. This website was created using HTML, CSS, and JS. The CSS is done primarily with Bootstrap.
 
 ## Features
 
