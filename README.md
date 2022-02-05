@@ -1,6 +1,6 @@
 # GH-Portfolio-HTML-CSS-JS
 
-Link to deployed application: (https://humkeyg.github.io/GH-Portfolio-HTML-CSS-JS/)
+Link to deployed application: https://humkeyg.github.io/GH-Portfolio-HTML-CSS-JS/
 
 ## Table of Contents
 
